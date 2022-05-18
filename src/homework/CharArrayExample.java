@@ -20,7 +20,8 @@ public class CharArrayExample {
 
 
 
-        System.out.println("ellement in the middle is " + chars2[chars2.length/2]);
+        System.out.print("ellements in the middle is " + chars2[chars2.length/2] + ",");
+        System.out.println(chars2[chars2.length/2 - 1]);
 
         //պետք է տպենք true եթե մեր մասիվը վերջանում է ly-ով, եթե ոչ՝ false
         System.out.println("example 3");
