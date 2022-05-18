@@ -17,13 +17,10 @@ public class CharArrayExample {
         //պետք է գրել կոդ, որը կտպի մեջտեղի 2 սինվոլները։
         System.out.println("example 2");
         char[] chars2 = {'j', 'a', 'v', 'a', 'l', 'o', 'v', 'e'};
-        char middle = 0;
-        for (int i = 0; i < chars2.length; i++) {
 
-            middle = chars2[chars2.length / 2];
 
-        }
-        System.out.println("ellement in the middle is " + middle);
+
+        System.out.println("ellement in the middle is " + chars2[chars2.length/2]);
 
         //պետք է տպենք true եթե մեր մասիվը վերջանում է ly-ով, եթե ոչ՝ false
         System.out.println("example 3");
