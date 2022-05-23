@@ -1,4 +1,4 @@
-package homework;
+package homework.arrayutil;
 
 public class CharArrayExample {
     public static void main(String[] args) {
@@ -35,13 +35,16 @@ public class CharArrayExample {
         } else {
             System.out.println(false);
         }
-// Տպում ենք true եթե տեքստը պարունակում է bob բառը, բայց o-ի տեղը կարող է լինել ցանկացած սինվոլ։
+        // Տպում ենք true եթե տեքստը պարունակում է bob բառը, բայց o-ի տեղը կարող է լինել ցանկացած սինվոլ։
         System.out.println("example 4");
         char[] bobArray = {'b', 'a', 'b', 'o', 'l', 'a'};
         char q = 'b';
 
+
+
         for (int i = 0; i < bobArray.length; i++) {
             if (bobArray[i] == q && bobArray[i + 2] == q) {
+
                 System.out.print(true + " ");
             } else {
                 System.out.print(false + " ");
@@ -62,9 +65,5 @@ public class CharArrayExample {
 
 
     }
-
 }
-
-
-
 

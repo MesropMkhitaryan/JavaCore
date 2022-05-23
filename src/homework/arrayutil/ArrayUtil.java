@@ -1,6 +1,6 @@
-package homework;
+package homework.arrayutil;
 
-public class ArrayUtil<average> {
+public class ArrayUtil {
     public static void main(String[] args) {
         int[] array = {2, 5, 8, 10, 32, 22, 11, 66, 12, 30};
         // print arrays allelements
@@ -73,8 +73,5 @@ public class ArrayUtil<average> {
         System.out.println("average number of array = " + average);
 
     }
-
-
 }
-
 
