@@ -8,30 +8,31 @@ public class ArraySpaceExample {
         int counter1 = 0;
 
 
-        for (int i = spaceArray.length-1;  i>0; i--) {
+        for (int i = spaceArray.length - 1; i > 0; i--) {
             if (spaceArray[i] != ' ') {
-                counter =  i;
+                counter = i;
                 break;
             }
 
         }
 
 
-        for (int i = 0;  i<spaceArray.length; i++) {
+        for (int i = 0; i < spaceArray.length; i++) {
             if (spaceArray[i] != ' ') {
-                counter1=  i;
+                counter1 = i;
                 break;
             }
 
         }
+        char[] res = new char[(counter-counter1) + 1];
+        int j = 0;
         for (int i = counter1; i <= counter; i++) {
-            System.out.print(spaceArray[i]);
-
+            res[j++]= spaceArray[i];
 
         }
-
-
-
+        for (char c : res) {
+            System.out.print(c);
+        }
 
 
     }
